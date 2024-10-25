@@ -17,7 +17,7 @@ body{
 
 
 header{
-    padding-top: 50px;
+    padding-top: 6vh;
     
     text-align: center;
     background-color: #2b962b;
@@ -38,7 +38,7 @@ header h1{
 }
 
 header p{
-    padding-bottom: 4vh;
+    padding-bottom: 6vh;
 
     color: white;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
