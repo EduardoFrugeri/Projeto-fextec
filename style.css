@@ -14,15 +14,12 @@ body{
     
 }
 
-:root{
-    --fonteh1:"Neucha", cursive;
-    
-}
+
 
 header{
+    padding-top: 50px;
     
     text-align: center;
-    padding-top: 50px;
     background-color: #2b962b;
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.384);
     
@@ -30,23 +27,25 @@ header{
 }
 
 header h1{
-    font-size: 5vw;
-    font-family: var(--fonteh1);
-    font-variant: small-caps;
+    padding-bottom: 0px;
+
     color: white;
     letter-spacing: 3px;
-    padding-bottom: 0px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+    font-size: 5vw;
+    font-family: "Neucha", cursive;
+    font-variant: small-caps;
 }
 
 header p{
     padding-bottom: 4vh;
+
     color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
     font-family: "Neucha", cursive;
     font-weight: 600;
-    letter-spacing: 2px;
     font-size: 1.2em;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.397);
+    letter-spacing: 2px;
     
 }
 
@@ -80,7 +79,7 @@ article{
     
     
     background-attachment: fixed;
-    background-size: 300px;
+    background-size: 18.65em;
     
     font-family: "PT Sans", sans-serif;
     background-color: #e9e9e9;
@@ -134,13 +133,13 @@ footer{
     font-size: 1em;
     letter-spacing: 1px;
     text-align: center;
-
+    
     
     color: white;
     background-color: black;
     display: block;
     margin-top: 39px;
-    padding: 30px;
+    padding: 2.4vh 2.2vw;
 }
 
 
